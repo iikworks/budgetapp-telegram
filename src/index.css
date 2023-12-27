@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: var(--tg-theme-bg-color, #FFFFFF);
+  color: var(--tg-theme-text-color, #000000);
+}
+
+.tg_bg__text {
+  color: var(--tg-theme-bg-color, #FFFFFF);
+}
+
+.tg_bg__bg {
+  background-color: var(--tg-theme-bg-color, #FFFFFF);
+}
+
+.tg_bg__border {
+  border-color: var(--tg-theme-bg-color, #FFFFFF);
+}
+
+.tg_text__text {
+  color: var(--tg-theme-text-color, #000000);
+}
+
+.tg_text__bg {
+  background-color: var(--tg-theme-text-color, #000000);
+}
+
+.tg_text__border {
+  border-color: var(--tg-theme-text-color, #000000);
+}
+
+.tg_hint__text {
+  color: var(--tg-theme-hint-color, #B8B8B8);
+}
+
+.tg_hint__bg {
+  background-color: var(--tg-theme-hint-color, #B8B8B8);
+}
+
+.tg_hint__border {
+  border-color: var(--tg-theme-hint-color, #B8B8B8);
+}
+
+.tg_link__text {
+  color: var(--tg-theme-link-color, #3480C7);
+}
+
+.tg_link__bg {
+  background-color: var(--tg-theme-link-color, #3480C7);
+}
+
+.tg_link__border {
+  border-color: var(--tg-theme-link-color, #3480C7);
+}
+
+.tg_button-bg__text {
+  color: var(--tg-theme-button-color, #5AC8FB);
+}
+
+.tg_button-bg__bg {
+  background-color: var(--tg-theme-button-color, #5AC8FB);
+}
+
+.tg_button-bg__border {
+  border-color: var(--tg-theme-button-color, #5AC8FB);
+}
+
+.tg_button-text__text {
+  color: var(--tg-theme-button-text-color, #F5FDFF);
+}
+
+.tg_button-text__bg {
+  background-color: var(--tg-theme-button-text-color, #F5FDFF);
+}
+
+.tg_button-text__border {
+  border-color: var(--tg-theme-button-text-color, #F5FDFF);
+}
+
+.tg_secondary-bg__text {
+  color: var(--tg-theme-secondary-bg-color, #F3F2F8);
+}
+
+.tg_secondary-bg__bg {
+  background-color: var(--tg-theme-secondary-bg-color, #F3F2F8);
+}
+
+.tg_secondary-bg__border {
+  border-color: var(--tg-theme-secondary-bg-color, #F3F2F8);
+}
