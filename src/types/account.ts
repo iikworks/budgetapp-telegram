@@ -3,4 +3,5 @@ export type Account = {
   balance: number;
   title: string;
   currency: string;
+  created_at: string;
 };

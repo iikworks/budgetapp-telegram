@@ -43,11 +43,13 @@ const accounts: Account[] = [
     balance: 230,
     title: 'Карта Visa',
     currency: 'BYN',
+    created_at: '2023-12-24T15:23:00Z',
   }, {
     id: 2,
     balance: 233.1,
     title: 'Счёт USD',
     currency: 'USD',
+    created_at: '2024-01-01T10:57:00Z',
   }
 ];
 
